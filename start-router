@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo '
+xterm -title "A" -hold -e "./router A" & sleep 1
+xterm -title "B" -hold -e "./router B" & sleep 1
+xterm -title "C" -hold -e "./router C" & sleep 1
+xterm -title "D" -hold -e "./router D" & sleep 1
+xterm -title "E" -hold -e "./router E" & sleep 1
+xterm -title "F" -hold -e "./router F" & sleep 1
+xterm -title "data-injector" -hold -e "./data_sender" & sleep 1
+' | shuf > exec
+chmod 777 exec
+./exec
+rm exec
