@@ -8,7 +8,7 @@ I did this project during my third year of Computer Engineering at Trinity Colle
 Design and deploy a working demonstration of routing algortihm (Bellman Ford).
 The purpose of this project is to implement, validate and demonstrate a simple Distance Vector protocol,in C/C++, of the type that might be used by Peer to Peer, Adhoc, Wireless Sensor or Internet of Things communication devices. You should use UDP Sockets and the C/C++ programming language to build a distance vector routing protocol that implements the distributed Bellman-Ford algorithm.
 
-![Image of routers](https://github.com/DarkThr0n3/markdown-demo/raw/master/routers.png)
+![Image of routers](https://raw.githubusercontent.com/DarkThr0n3/Networking-Implementing_Routing_Bellman-Ford_Algorithm/master/routers.png)
 
 ## Implementation
 
